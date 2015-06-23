@@ -14,58 +14,58 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-      </head>
-      <body id="top">
-        <header id="home">
-          <section class="hero" id="hero">
-            <div class="container">
+  </head>
+  <body id="top">
+    <header id="home">
+      <section class="hero" id="hero">
+        <div class="container">
 
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center inner">
-                  <h2 class="animated fadeInDown">TODAY<span> IS:</span></h2>
-                  <h1 class="animated fadeInUp delay-05s">
-                  {% assign today = site.time | date: "%A" %}
-                  {% case today %}
-                  {% when 'Tuesday' %}
-                    2nd Monday
-                  {% when 'Wednesday' %}
-                    3nd Monday
-                  {% when 'Thursday' %}
-                    Pre-Friday
-                  {% when 'Friday' %}
-                    Friday biatches
-                  {% when 'Saturday' %}
-                    Post-Friday
-                  {% when 'Sunday' %}
-                    Pre-Monday
-                  {% else %}
-                    Fucking Monday
-                  {% endcase %}
-                  </h1>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                  <p class="learn-more-btn">{{ site.time | date: "%B %-d, %Y" }}</p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </header>
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <ul class="legals">
-                  <li>Background photo by <a href="http://rpk.io/">rpk.io</a></li>
-                  <li><a href="http://opensource.org/licenses/MIT">Licence</a></li>
-                </ul>
-              </div>
-              <div class="col-md-6 credit">
-                <p>Design by <a href="http://tympanus.net/codrops/?p=19439">tympanus</a> - Developed by <a href="https://github.com/rpk0/calendar">rpk</a></p>
-              </div>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center inner">
+              <h2 class="animated fadeInDown">TODAY<span> IS:</span></h2>
+              <h1 class="animated fadeInUp delay-05s">
+              {% assign today = site.time | date: "%A" %}
+              {% case today %}
+              {% when 'Tuesday' %}
+                2nd Monday
+              {% when 'Wednesday' %}
+                3nd Monday
+              {% when 'Thursday' %}
+                Pre-Friday
+              {% when 'Friday' %}
+                Friday biatches
+              {% when 'Saturday' %}
+                Post-Friday
+              {% when 'Sunday' %}
+                Pre-Monday
+              {% else %}
+                Fucking Monday
+              {% endcase %}
+              </h1>
             </div>
           </div>
-        </footer>
-      </body>
-    </html>
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+              <p class="learn-more-btn">{{ site.time | date: "%B %-d, %Y" }}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="legals">
+              <li>Background photo by <a href="http://rpk.io/">rpk.io</a></li>
+              <li><a href="http://opensource.org/licenses/MIT">Licence</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 credit">
+            <p>Design by <a href="http://tympanus.net/codrops/?p=19439">tympanus</a> - Developed by <a href="https://github.com/rpk0/calendar">rpk</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

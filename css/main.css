@@ -1,4 +1,4 @@
-
+/*Main CSS file*/
 
 body {
   display: inline-block;
@@ -25,9 +25,6 @@ p {
   transform: translate(-50%, -50%);
 }
 
-
-/* to make lines scroll instead of wrap */
-/* from http://stackoverflow.com/a/23393920 */
 .highlight pre code * {
   white-space: nowrap;    // this sets all children inside to nowrap
 }
@@ -40,4 +37,3 @@ p {
 
 .highlight .no { color: teal; }
 .highlight .s2 { color: #dd1144; }
-

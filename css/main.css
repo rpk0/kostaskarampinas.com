@@ -26,6 +26,11 @@ p {
   .highlight {
     width: 230px;
   }
+
+  .highlight span {
+    margin-bottom: 12px;
+    display: inline-block;
+  }
 }
 
 .highlight {

@@ -16,6 +16,18 @@ p {
   margin: 0 0 5px;
 }
 
+@media screen and (max-width: 640px) {
+  .highlight {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .highlight {
+    width: 230px;
+  }
+}
+
 .highlight {
   display: inline-block;
   position: relative;

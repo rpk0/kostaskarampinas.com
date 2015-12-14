@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   background: #00303e;
+  color: #f8f8f2;
 }
 
 pre {
@@ -29,15 +30,7 @@ a:hover {
 .string-indent {
     display: block;
     padding-left: 58px;
-    color: #efe158;
-}
-
-.first-level {
     text-indent: -41px;
-}
-
-.second-level {
-    text-indent: -33px;
 }
 
 @media screen and (max-width: 640px) {
@@ -55,6 +48,11 @@ a:hover {
     margin-bottom: 12px;
     display: inline-block;
   }
+}
+
+.end_of_create {
+  display: inline-block;
+  margin-bottom: 25px;
 }
 
 .highlight {
@@ -78,4 +76,6 @@ a:hover {
 
 .highlight .def { color: #66d9ef; }
 .highlight .def_name { color: #a6e22e; }
+.highlight .hash_key { color: #fd971f; }
+.highlight .string { color: #efe158; }
 .highlight .s2 { color: #ae81ff; }

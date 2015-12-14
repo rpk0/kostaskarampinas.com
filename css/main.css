@@ -6,14 +6,38 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  background: #00303e;
 }
 
 pre {
   margin: 0;
 }
-
 p {
-  margin: 0 0 5px;
+  margin: 0 0 8px;
+}
+
+a {
+  color: #ec007c;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #0096c1;
+  color: #00303e;
+}
+
+.string-indent {
+    display: block;
+    padding-left: 58px;
+    color: #efe158;
+}
+
+.first-level {
+    text-indent: -41px;
+}
+
+.second-level {
+    text-indent: -33px;
 }
 
 @media screen and (max-width: 640px) {
@@ -52,5 +76,6 @@ p {
   white-space: pre;       // forces <code> to respect <pre> formatting
 }
 
-.highlight .no { color: teal; }
-.highlight .s2 { color: #dd1144; }
+.highlight .def { color: #66d9ef; }
+.highlight .def_name { color: #a6e22e; }
+.highlight .s2 { color: #ae81ff; }
